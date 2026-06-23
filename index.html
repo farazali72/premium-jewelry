@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Jewelry</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="images/jewelry-store icon.png" alt="site icon" width="20">
+                <span class="text-uppercase fw-lighter ms-1">Premium Jewelry</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="./shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="./product.html">Product</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#About-Us">About-Us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#Contact-Us">Contact-Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="header" class="vh-100 carousel slide" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">Best Collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">New Arrivals</h1>
+                <a href="#" class="btn mt-3 text-uppercase">Shop Now</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">Best price & offers</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">New season</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy Now</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Collection</h2>
+            </div>
+            
+            <div class="d-flex flex-wrap justify-content-center w-100 mt-5 filter-button-group">
+                <button type="button" class="btn m-2 active-filter-btn" data-filter="*">All</button>
+                <button type="button" class="btn m-2" data-filter=".best">Best Sellers</button> 
+                <button type="button" class="btn m-2" data-filter=".feat">Featured</button>
+                <button type="button" class="btn m-2" data-filter=".new">New Arrival</button>
+            </div>
+            
+            <div class="collection-list mt-4 row gx-0 gy-4">
+                
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center best">
+                    <div class="collection-img position-relative">
+                        <img src="images/andrew-hutchings-Asngw4A5_tM-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:17000.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center feat">
+                    <div class="collection-img position-relative">
+                        <img src="images/jagdish-jeweller-9I_q3CL7FZo-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:23000.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center new">
+                    <div class="collection-img position-relative">
+                        <img src="images/jeje-maja-0yYU-sjgpcs-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:6900.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center best">
+                    <div class="collection-img position-relative">
+                        <img src="images/mares-stefan-raFVu3MLap8-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:10000.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center feat">
+                    <div class="collection-img position-relative">
+                        <img src="images/mohadese-rezaei-xf19rWmR8VQ-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:12500.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center new">
+                    <div class="collection-img position-relative">
+                        <img src="images/peaky-frames-Wcj6PVLiipQ-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:23500.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center best">
+                    <div class="collection-img position-relative">
+                        <img src="images/romina-bm-QuVVqKy2V-I-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:11000.00</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 d-flex flex-column align-items-center text-center feat">
+                    <div class="collection-img position-relative">
+                        <img src="images/salah-ait-mokhtar-KDAYTMcWpes-unsplash.jpg" height="270" width="250">
+                        <span class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Diamond Earring</p>
+                        <span class="fw-bold">Rs:30000.00</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--contact-us section-->
+    <section class="contact-us-sec">
+        <div class="contact-us">
+            <h3 class="text-center text-uppercase pd-30">Contact Us</h3>
+            <div class="contact-details flex space-between align-center">
+                <div class="left-sec">
+                    <h5>Main branch</h5>
+                    <p>shah faisal, <br> Main Road Lyari,<br> lyari, Karachi- 940296</p>
+                </div>
+                <div class="center-sec">
+                    <h5>Contact No.</h5>
+                    <p>Mobile no. +92845854768</p>
+                    <h5>Email Id</h5>
+                    <p>iamxyzhuman@gmail.com</p>
+                </div>
+                <div class="right-sec">
+                    <form action="">
+                        Email : <input type="email-id"> <br>
+                        <button class="btn btn2">Subscribe</button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact-us section end-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
