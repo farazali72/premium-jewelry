@@ -17,3 +17,7 @@ $(document).ready(function() {
     $grid.isotope('layout');
   });
 });
+
+$('.fa-search').parent().on('click', function() {
+    $('#searchBar').toggleClass('active');
+});
